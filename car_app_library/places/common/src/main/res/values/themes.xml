@@ -16,10 +16,19 @@
 -->
 
 <resources>
+  <style name="PanelStyle">
+    <item name="android:background">#2196F3</item>
+  </style>
   <style name="CarAppTheme">
     <item name="carColorPrimary">#ff41af6a</item>
     <item name="carColorPrimaryDark">#ff41af6a</item>
     <item name="carColorSecondary">#fff3b713</item>
     <item name="carColorSecondaryDark">#fff3b713</item>
+    <item name="android:background">#2196F3</item>
+    <item name="android:windowBackground">#2196F3</item>
+    <item name="android:headerBackground">#2196F3</item>
+    <item name="android:listViewStyle">@style/Theme.AppCompat.DayNight.DarkActionBar</item>
+    <item name="android:panelBackground">@android:color/black</item>
   </style>
+
 </resources>

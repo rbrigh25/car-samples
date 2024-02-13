@@ -58,7 +58,9 @@
         android:name="androidx.car.app.theme"
         android:resource="@style/CarAppTheme"
         tools:ignore="MetadataTagInsideApplicationTag"/>
-
+    <meta-data
+      android:name="androidx.car.app.Screen"
+      android:resource="@style/CarAppTheme" />
     <meta-data android:name="androidx.car.app.minCarApiLevel"
         android:value="1"
         tools:ignore="MetadataTagInsideApplicationTag" />
@@ -70,10 +72,17 @@
         <action android:name="androidx.car.app.CarAppService" />
       </intent-filter>
     </service>
-
+    <service
+        android:name="androidx.car.app.sample.places.common.MyMusicService"
+        android:label="Places Media"
+        android:exported="true">
+      <intent-filter>
+        <action android:name="android.media.browse.MediaBrowserService" />
+      </intent-filter>
+    </service>
     <activity
         android:name="androidx.car.app.activity.CarAppActivity"
-        android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+        android:theme="@style/CarAppTheme"
         android:exported="true"
         android:launchMode="singleTask"
         android:label="Places">

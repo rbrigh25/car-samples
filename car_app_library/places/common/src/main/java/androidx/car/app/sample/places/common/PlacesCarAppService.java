@@ -28,6 +28,7 @@ import androidx.car.app.ScreenManager;
 import androidx.car.app.Session;
 import androidx.car.app.SessionInfo;
 import androidx.car.app.validation.HostValidator;
+import androidx.media.MediaBrowserServiceCompat;
 
 /**
  * Entry point for the app.

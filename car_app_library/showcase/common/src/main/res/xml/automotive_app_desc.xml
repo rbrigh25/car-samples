@@ -15,5 +15,5 @@
  limitations under the License.
 -->
 <automotiveApp>
-  <uses name="template" />
+  <uses name="bubble" />
 </automotiveApp>

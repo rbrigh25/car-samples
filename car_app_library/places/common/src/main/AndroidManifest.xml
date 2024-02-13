@@ -14,4 +14,9 @@
  See the License for the specific language governing permissions and
  limitations under the License.
 -->
+
+<!-- Main music service, provides media browsing and media playback services to
+ consumers through MediaBrowserService and MediaSession. Consumers connect to it through
+ MediaBrowser (for browsing) and MediaController (for playback control) -->
+
 <manifest />
